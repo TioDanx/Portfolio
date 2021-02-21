@@ -52,7 +52,6 @@ button:hover, button:focus {
     min-height: 120vh;
     background-color: var(--secondaryColor);
     color: var(--primaryColor);
-    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 96%);
 }
 
 .description {
@@ -109,7 +108,6 @@ button:hover, button:focus {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 95%);
 }
 
 .technologies-title, .projects-title {
