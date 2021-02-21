@@ -15,13 +15,13 @@ button {
     line-height: 1;
     margin: 20px;
     padding: 10px 20px;
-    transition:500ms;
+    transition: 500ms;
   }
 
 button:hover, button:focus {
     border-color: var(--primaryColor);
     color: var(--primaryColor   );
-    box-shadow: inset 100px 0 0 0 var(--secondaryColor);
+    box-shadow: inset 150px 0 0 0 var(--secondaryColor);
 }
 
 
