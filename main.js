@@ -35,7 +35,6 @@ ScrollReveal().reveal('.formation-title',{
     duration: 2000,
     origin: 'top',
     distance: '200px',
-    delay: '300',
     reset: true
 })
 ScrollReveal().reveal('.tecnica',{
@@ -63,7 +62,6 @@ ScrollReveal().reveal('.technologies-title',{
     duration: 1000,
     origin: 'left',
     distance: '200px',
-    delay: '300',
     reset: true
 })
 ScrollReveal().reveal('.technologies-explanation',{
@@ -78,5 +76,33 @@ ScrollReveal().reveal('.svgs',{
     origin: 'bottom',
     distance: '300px',
     delay: '300',
+    reset: true
+})
+ScrollReveal().reveal('.projects-title',{
+    duration: 1000,
+    origin: 'top',
+    distance: '300px',
+    reset: true
+})
+
+ScrollReveal().reveal('.project-img',{
+    duration: 1000,
+    origin: 'left',
+    delay: 300,
+    distance: '300px',
+    reset: true
+})
+ScrollReveal().reveal('.project-card-description',{
+    duration: 1000,
+    origin: 'right',
+    delay: 300,
+    distance: '300px',
+    reset: true
+})
+ScrollReveal().reveal('.buttons',{
+    duration: 1000,
+    origin: 'bottom',
+    delay: 500,
+    distance: '50px',
     reset: true
 })
