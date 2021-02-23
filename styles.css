@@ -2,12 +2,23 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif !important;
-    --primaryColor: #371F36;
-    --secondaryColor: #DBDDBA;
+    --primaryColor: #DBDDBA;
+    --secondaryColor: #371F36;
     background-color: var(--primaryColor) !important;
 }
-
-a {
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+.btn {
     text-decoration: none !important;
     background: none;
     border: 2px solid var(--secondaryColor);
@@ -18,7 +29,7 @@ a {
     transition: 500ms;
   }
 
-a:hover, a:focus {
+.btn:hover, .btn:focus {
     border-color: var(--primaryColor);
     color: var(--primaryColor) !important;
     box-shadow: inset 150px 0 0 0 var(--secondaryColor);
@@ -31,7 +42,7 @@ a:hover, a:focus {
 }
 
 .main {
-    min-height: 100vh;
+    height: 100vh;
     background-color: var(--primaryColor);
     display: flex;
     justify-content: center;
@@ -49,14 +60,14 @@ a:hover, a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 120vh;
+    height: 100vh;
     background-color: var(--secondaryColor);
     color: var(--primaryColor);
 }
 
 .description {
     width: 60%;
-    text-align: center;
+    text-align: justify;
     font-weight: 600;
     display: flex;
     flex-direction: row;
@@ -77,7 +88,7 @@ a:hover, a:focus {
 }
 
 .formation-container {
-    min-height: 120vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
