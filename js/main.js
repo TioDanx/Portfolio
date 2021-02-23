@@ -1,7 +1,5 @@
 new fullpage('#fullpage', {
     anchors: ['Presentation', 'Aboutme', 'Formation', 'Technologies', 'Projects'],
-    loopBottom: true,
-    loopTop: true,
     keyboardScrolling: true,
     animateAnchor: true,
     recordHistory: true,
