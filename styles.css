@@ -279,7 +279,7 @@
     .formation-container {
         display: flex;
         width: 100%;
-        height: 100vh;
+        height: auto;
         flex-direction: column;
         align-items: center;
         color: var(--secondaryColor);
@@ -330,7 +330,7 @@
         font-size: 40px !important;
     }
     .projects {
-        height: 100vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
