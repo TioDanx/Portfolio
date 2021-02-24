@@ -7,7 +7,8 @@ new fullpage('#fullpage', {
     navigation: true,
     showActiveTooltip: true,
     scrollingSpeed: 1200,
-    responsiveHeight: 700
+    responsiveHeight: 900,
+
 });
 
 ScrollReveal().reveal('.welcome', {
