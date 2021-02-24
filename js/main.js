@@ -8,7 +8,6 @@ new fullpage('#fullpage', {
     showActiveTooltip: true,
     scrollingSpeed: 1200,
     scrollOverflow: true,
-    responsiveHeight: 900
 });
 
 ScrollReveal().reveal('.welcome', {
