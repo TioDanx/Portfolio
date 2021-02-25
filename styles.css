@@ -51,7 +51,7 @@
         justify-content: center;
         align-items: center;
         color: var(--secondaryColor);
-        font-size: 45px;
+        font-size: 35px;
     }
     .main-text {
         margin-left: 20px;
@@ -86,7 +86,7 @@
         height: 400px;
     }
     .formation-container {
-        height: auto;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -279,13 +279,13 @@
     .formation-container {
         display: flex;
         width: 100%;
-        height: auto;
         flex-direction: column;
         align-items: center;
         color: var(--secondaryColor);
     }
     .formation {
         width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
