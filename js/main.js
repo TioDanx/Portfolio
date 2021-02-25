@@ -18,18 +18,18 @@ ScrollReveal().reveal('.welcome', {
     distance: '400px',
     reset: true
 })
-ScrollReveal().reveal('.arrow', {
-    duration: 1000,
-    origin: 'top',
-    delay: 2000,
-    distance: '400px',
-    reset: true
-})
 ScrollReveal().reveal('.fd', {
     duration: 1000,
     origin: 'right',
     distance: '400px',
     delay: '500',
+    reset: true
+})
+ScrollReveal().reveal('.arrow', {
+    duration: 1000,
+    origin: 'top',
+    delay: 2000,
+    distance: '400px',
     reset: true
 })
 ScrollReveal().reveal('.cv', {
