@@ -9,7 +9,7 @@ new fullpage('#fullpage', {
     scrollingSpeed: 1200,
     scrollOverflow: true,
     fitToSection: true,
-    responsiveHeight: 700
+    responsiveWidth: 900
 });
 
 ScrollReveal().reveal('.welcome', {
