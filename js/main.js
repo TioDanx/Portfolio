@@ -98,30 +98,27 @@ ScrollReveal().reveal('.technologies-explanation', {
     duration: 1000,
     origin: 'left',
     distance: '300px',
-    delay: 300,
     reset: true,
     desktop: false
 })
 ScrollReveal().reveal('.svgs-container', {
     duration: 1000,
     origin: 'bottom',
-    delay: 500,
     distance: '200px',
     reset: true,
     desktop: false
 })
 ScrollReveal().reveal('.projects-title', {
-    duration: 2000,
+    duration: 1000,
     origin: 'top',
     distance: '400px',
     reset: true,
     desktop: false
 })
 ScrollReveal().reveal('.project-card', {
-    duration: 2000,
+    duration: 1000,
     origin: 'left',
-    distance: '500px',
-    delay: 500,
+    distance: '300px',
     reset: true,
     desktop: false
 })
