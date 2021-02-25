@@ -62,7 +62,6 @@ ScrollReveal().reveal('.photo', {
 ScrollReveal().reveal('.about-me', {
     duration: 1000,
     origin: 'top',
-    delay: 300,
     distance: '200px',
     reset: true,
     desktop: false
@@ -71,7 +70,6 @@ ScrollReveal().reveal('.my-description', {
     duration: 1000,
     origin: 'bottom',
     distance: '200px',
-    delay: '600',
     reset: true,
     desktop: false
 })
@@ -85,7 +83,6 @@ ScrollReveal().reveal('.formation-title', {
 ScrollReveal().reveal('.education-card', {
     duration: 1000,
     origin: 'left',
-    delay: 400,
     distance: '200px',
     reset: true,
     desktop: false
