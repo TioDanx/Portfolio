@@ -6,9 +6,9 @@ new fullpage('#fullpage', {
     verticalCentered: false,
     navigation: true,
     showActiveTooltip: true,
-    scrollingSpeed: 1200,
-    responsiveWidth: 900
-
+    scrollingSpeed: 800,
+    responsiveWidth: 900,
+    scrollOverflow: true
 });
 
 ScrollReveal().reveal('.welcome', {
@@ -51,4 +51,95 @@ ScrollReveal().reveal('.linkedin', {
     distance: '200px',
     delay: '1500',
     reset: true
+})
+ScrollReveal().reveal('.photo', {
+    duration: 1000,
+    origin: 'left',
+    distance: '100px',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.about-me', {
+    duration: 1000,
+    origin: 'top',
+    delay: 300,
+    distance: '200px',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.my-description', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '200px',
+    delay: '600',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.formation-title', {
+    duration: 1000,
+    origin: 'top',
+    distance: '200px',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.education-card', {
+    duration: 1000,
+    origin: 'left',
+    delay: 400,
+    distance: '200px',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.technologies-title', {
+    duration: 1000,
+    origin: 'top',
+    distance: '400px',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.photo', {
+    duration: 1000,
+    origin: 'left',
+    distance: '100px',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.about-me', {
+    duration: 1000,
+    origin: 'top',
+    delay: 300,
+    distance: '200px',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.my-description', {
+    duration: 1000,
+    origin: 'right',
+    distance: '200px',
+    delay: '600',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.photo', {
+    duration: 1000,
+    origin: 'left',
+    distance: '100px',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.about-me', {
+    duration: 1000,
+    origin: 'top',
+    delay: 300,
+    distance: '200px',
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.my-description', {
+    duration: 1000,
+    origin: 'right',
+    distance: '200px',
+    delay: '600',
+    reset: true,
+    desktop: false
 })
