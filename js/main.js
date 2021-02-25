@@ -97,49 +97,34 @@ ScrollReveal().reveal('.technologies-title', {
     reset: true,
     desktop: false
 })
-ScrollReveal().reveal('.photo', {
+ScrollReveal().reveal('.technologies-explanation', {
     duration: 1000,
     origin: 'left',
-    distance: '100px',
-    reset: true,
-    desktop: false
-})
-ScrollReveal().reveal('.about-me', {
-    duration: 1000,
-    origin: 'top',
+    distance: '300px',
     delay: 300,
+    reset: true,
+    desktop: false
+})
+ScrollReveal().reveal('.svgs-container', {
+    duration: 1000,
+    origin: 'bottom',
+    delay: 500,
     distance: '200px',
     reset: true,
     desktop: false
 })
-ScrollReveal().reveal('.my-description', {
-    duration: 1000,
-    origin: 'right',
-    distance: '200px',
-    delay: '600',
+ScrollReveal().reveal('.projects-title', {
+    duration: 2000,
+    origin: 'top',
+    distance: '400px',
     reset: true,
     desktop: false
 })
-ScrollReveal().reveal('.photo', {
-    duration: 1000,
+ScrollReveal().reveal('.project-card', {
+    duration: 2000,
     origin: 'left',
-    distance: '100px',
-    reset: true,
-    desktop: false
-})
-ScrollReveal().reveal('.about-me', {
-    duration: 1000,
-    origin: 'top',
-    delay: 300,
-    distance: '200px',
-    reset: true,
-    desktop: false
-})
-ScrollReveal().reveal('.my-description', {
-    duration: 1000,
-    origin: 'right',
-    distance: '200px',
-    delay: '600',
+    distance: '500px',
+    delay: 500,
     reset: true,
     desktop: false
 })
