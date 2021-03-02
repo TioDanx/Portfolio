@@ -548,6 +548,9 @@
         justify-content: space-evenly;
         text-align: justify;
     }
+    .technologies-explanation{
+        overflow: visible;
+    }
     .svgs-container{
         display: flex;
         height: 40vh;
